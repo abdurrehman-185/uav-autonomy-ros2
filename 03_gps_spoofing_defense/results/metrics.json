@@ -1,0 +1,52 @@
+{
+  "naive": {
+    "mode": "naive",
+    "outcome": "HIJACKED INTO BUILDING",
+    "attack_start_s": 25.3,
+    "alarm_s": null,
+    "detection_delay_s": null,
+    "crash_s": null,
+    "gps_fixes_fused": 985,
+    "waypoints_reached": 0,
+    "max_true_cross_track_m": 6.77,
+    "min_clearance_to_obstacles_m": 0.23,
+    "max_navigation_error_m": 26.63,
+    "max_spoof_offset_m": 25.0
+  },
+  "gated": {
+    "mode": "gated",
+    "outcome": "CRASHED",
+    "attack_start_s": 25.2,
+    "alarm_s": null,
+    "detection_delay_s": null,
+    "crash_s": 57.6,
+    "gps_fixes_fused": 290,
+    "map_alignment_shift_m": [
+      0.0,
+      0.0
+    ],
+    "waypoints_reached": 0,
+    "max_true_cross_track_m": 6.76,
+    "min_clearance_to_obstacles_m": 0.24,
+    "max_navigation_error_m": 11.47,
+    "max_spoof_offset_m": 12.74
+  },
+  "lidar": {
+    "mode": "lidar",
+    "outcome": "COMPLETED",
+    "attack_start_s": 25.1,
+    "alarm_s": 30.3,
+    "detection_delay_s": 5.2,
+    "crash_s": null,
+    "gps_fixes_fused": 95,
+    "map_alignment_shift_m": [
+      -0.24,
+      -0.3
+    ],
+    "waypoints_reached": 2,
+    "max_true_cross_track_m": 0.17,
+    "min_clearance_to_obstacles_m": 4.25,
+    "max_navigation_error_m": 1.54,
+    "max_spoof_offset_m": 25.0
+  }
+}

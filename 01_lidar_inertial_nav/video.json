@@ -1,0 +1,22 @@
+{
+  "title": "No-GPS flight: lidar-inertial EKF + scan-to-map SLAM",
+  "title_scale": 0.6,
+  "run_csv": "results/run.csv",
+  "frames": {"chase": "results/frames/chase_cam", "overhead": "results/frames/overhead_cam"},
+  "map_npy": "results/map.npy",
+  "truth": ["true_x", "true_y"],
+  "series": [
+    {"x": "est_x", "y": "est_y", "label": "Lidar+IMU EKF", "color": [230, 200, 40], "width": 2},
+    {"x": "imu_x", "y": "imu_y", "label": "IMU only", "color": [60, 60, 230], "width": 1}
+  ],
+  "bounds": [-3, 19, -8, 8],
+  "walls": [[-2.1, -7.1, 20.2, 0.2], [-2.1, 6.9, 20.2, 0.2], [-2.1, -7.1, 0.2, 14.2], [17.9, -7.1, 0.2, 14.2], [5.9, -7, 0.2, 9], [11.9, -2, 0.2, 9]],
+  "waypoints": [[3, 4.5], [9, 4.5], [9, -4.5], [15, -4.5], [15, 3], [0, 0]],
+  "error_ylim": 1.0,
+  "events": [{"t": 0, "text": "NO GPS ON BOARD"}],
+  "speed": 2,
+  "out": "media/lidar_inertial_flight.mp4",
+  "gif": "media/lidar_inertial_flight.gif",
+  "gif_start": 4,
+  "gif_seconds": 14
+}

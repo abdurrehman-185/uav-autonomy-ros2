@@ -1,0 +1,21 @@
+{
+  "title": "60 s GNSS jamming: EKF vs particle filters (Gazebo data)",
+  "title_scale": 0.58,
+  "run_csv": "results/timeseries.csv",
+  "frames": {"chase": "results/frames/chase_cam", "overhead": "results/frames/overhead_cam"},
+  "truth": ["true_x", "true_y"],
+  "series": [
+    {"x": "dr_x", "y": "dr_y", "label": "DR", "color": [60, 60, 230], "width": 1},
+    {"x": "ekf_x", "y": "ekf_y", "label": "EKF", "color": [230, 160, 40], "width": 2},
+    {"x": "pf_x", "y": "pf_y", "label": "PF", "color": [40, 150, 250], "width": 2},
+    {"x": "mpf_x", "y": "mpf_y", "label": "MPF", "color": [90, 200, 90], "width": 2}
+  ],
+  "bounds": [-28, 28, -16, 16],
+  "error_ylim": 40,
+  "events": [{"t": 50, "until": 110, "text": "GNSS JAMMED"}],
+  "speed": 3,
+  "out": "media/eskf_vs_pf_flight.mp4",
+  "gif": "media/eskf_vs_pf_flight.gif",
+  "gif_start": 14,
+  "gif_seconds": 16
+}

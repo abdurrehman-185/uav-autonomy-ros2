@@ -1,0 +1,293 @@
+{
+  "gnss_check": {
+    "mean_offset_m": [
+      -0.006,
+      -0.136,
+      -0.03
+    ],
+    "std_m": [
+      1.496,
+      1.678,
+      1.474
+    ]
+  },
+  "outage_s": [
+    50.0,
+    110.0
+  ],
+  "particles": 1000,
+  "pf_seeds": 5,
+  "estimators": {
+    "DR": [
+      {
+        "rmse_with_gnss_m": 32.7875414258329,
+        "rmse_during_outage_m": 197.21500587159866,
+        "error_at_outage_end_m": 337.8346418082773,
+        "max_3d_error_during_outage_m": 406.1618909380275,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 5.0,
+        "us_per_epoch": 330.4
+      }
+    ],
+    "EKF": [
+      {
+        "rmse_with_gnss_m": 0.751920473163012,
+        "rmse_during_outage_m": 11.075724177466801,
+        "error_at_outage_end_m": 23.50780051838429,
+        "max_3d_error_during_outage_m": 23.60375302240509,
+        "recovery_s_after_gnss_returns": 0.4,
+        "runtime_s": 19.2,
+        "us_per_epoch": 1263.1,
+        "median_position_nees_outage": 0.9026220554947262
+      }
+    ],
+    "PF": [
+      {
+        "rmse_with_gnss_m": 54.864281081867574,
+        "rmse_during_outage_m": 270.2909487389837,
+        "error_at_outage_end_m": 417.4190229075139,
+        "max_3d_error_during_outage_m": 421.42493839496706,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 16.3,
+        "us_per_epoch": 1073.6,
+        "median_position_nees_outage": 19111.611273490773
+      },
+      {
+        "rmse_with_gnss_m": 65.52619640780537,
+        "rmse_during_outage_m": 438.51399830089844,
+        "error_at_outage_end_m": 809.9673645793179,
+        "max_3d_error_during_outage_m": 848.7799911522472,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 16.5,
+        "us_per_epoch": 1083.9,
+        "median_position_nees_outage": 64816.11272403323
+      },
+      {
+        "rmse_with_gnss_m": 59.98463922664707,
+        "rmse_during_outage_m": 649.0996634993097,
+        "error_at_outage_end_m": 1205.914570486081,
+        "max_3d_error_during_outage_m": 1309.8952397933122,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 16.4,
+        "us_per_epoch": 1078.8,
+        "median_position_nees_outage": 240768.45771320636
+      },
+      {
+        "rmse_with_gnss_m": 92.10590389242185,
+        "rmse_during_outage_m": 678.7320739325147,
+        "error_at_outage_end_m": 1163.3497450278792,
+        "max_3d_error_during_outage_m": 1174.7777889640086,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 16.6,
+        "us_per_epoch": 1093.7,
+        "median_position_nees_outage": 100188.43012144265
+      },
+      {
+        "rmse_with_gnss_m": 19.040977493880074,
+        "rmse_during_outage_m": 117.65084590270463,
+        "error_at_outage_end_m": 202.39240547329848,
+        "max_3d_error_during_outage_m": 588.3911292301284,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 16.7,
+        "us_per_epoch": 1095.7,
+        "median_position_nees_outage": 136450.14517075813
+      }
+    ],
+    "RPF": [
+      {
+        "rmse_with_gnss_m": 2.616187875160826,
+        "rmse_during_outage_m": 13804.383102771759,
+        "error_at_outage_end_m": 30743.853129714043,
+        "max_3d_error_during_outage_m": 33928.054541890895,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 21.8,
+        "us_per_epoch": 1433.5,
+        "median_position_nees_outage": 0.01926817976977691
+      },
+      {
+        "rmse_with_gnss_m": 2.5366710946490927,
+        "rmse_during_outage_m": 5705.247025769026,
+        "error_at_outage_end_m": 12707.074928785823,
+        "max_3d_error_during_outage_m": 31334.48075962298,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 22.0,
+        "us_per_epoch": 1450.0,
+        "median_position_nees_outage": 0.014695858065866374
+      },
+      {
+        "rmse_with_gnss_m": 2.7614335279961706,
+        "rmse_during_outage_m": 15102.894196102756,
+        "error_at_outage_end_m": 33603.25918531503,
+        "max_3d_error_during_outage_m": 33603.386530976524,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 21.6,
+        "us_per_epoch": 1420.9,
+        "median_position_nees_outage": 0.016012685473019476
+      },
+      {
+        "rmse_with_gnss_m": 2.5705170119423615,
+        "rmse_during_outage_m": 3936.993973312434,
+        "error_at_outage_end_m": 9125.462325202108,
+        "max_3d_error_during_outage_m": 26913.751137543175,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 22.2,
+        "us_per_epoch": 1458.1,
+        "median_position_nees_outage": 0.009753199785097415
+      },
+      {
+        "rmse_with_gnss_m": 2.517562125288008,
+        "rmse_during_outage_m": 2992.5744096175163,
+        "error_at_outage_end_m": 6848.583120687496,
+        "max_3d_error_during_outage_m": 15279.955701038363,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 22.2,
+        "us_per_epoch": 1461.5,
+        "median_position_nees_outage": 0.017228830182160287
+      }
+    ],
+    "MPF": [
+      {
+        "rmse_with_gnss_m": 4.213898376718701,
+        "rmse_during_outage_m": 187.65457129738385,
+        "error_at_outage_end_m": 380.7100493935038,
+        "max_3d_error_during_outage_m": 380.80086629784546,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 60.8,
+        "us_per_epoch": 3996.2,
+        "median_position_nees_outage": 2860.19358257781
+      },
+      {
+        "rmse_with_gnss_m": 3.623941165530753,
+        "rmse_during_outage_m": 170.0207732115274,
+        "error_at_outage_end_m": 345.0732162993783,
+        "max_3d_error_during_outage_m": 345.0733872712613,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 58.8,
+        "us_per_epoch": 3865.9,
+        "median_position_nees_outage": 2055.2042477392506
+      },
+      {
+        "rmse_with_gnss_m": 1.3607890118295423,
+        "rmse_during_outage_m": 45.253436360803384,
+        "error_at_outage_end_m": 98.4947530694846,
+        "max_3d_error_during_outage_m": 98.59501985076145,
+        "recovery_s_after_gnss_returns": 3.2,
+        "runtime_s": 58.8,
+        "us_per_epoch": 3868.0,
+        "median_position_nees_outage": 126.86410311355152
+      },
+      {
+        "rmse_with_gnss_m": 4.226035043723043,
+        "rmse_during_outage_m": 167.86628701208156,
+        "error_at_outage_end_m": 351.7532429271444,
+        "max_3d_error_during_outage_m": 351.75825222908014,
+        "recovery_s_after_gnss_returns": null,
+        "runtime_s": 58.9,
+        "us_per_epoch": 3872.9,
+        "median_position_nees_outage": 1733.6825910503521
+      },
+      {
+        "rmse_with_gnss_m": 1.1933661152667543,
+        "rmse_during_outage_m": 49.96599863091749,
+        "error_at_outage_end_m": 103.52138756722914,
+        "max_3d_error_during_outage_m": 103.531648322962,
+        "recovery_s_after_gnss_returns": 2.0,
+        "runtime_s": 58.7,
+        "us_per_epoch": 3859.1,
+        "median_position_nees_outage": 122.65177866697346
+      }
+    ]
+  },
+  "summary_median_over_seeds": {
+    "DR": {
+      "rmse_with_gnss_m": 32.788,
+      "rmse_during_outage_m": 197.215,
+      "error_at_outage_end_m": 337.835,
+      "max_3d_error_during_outage_m": 406.162,
+      "runtime_s": 5.0,
+      "us_per_epoch": 330.4
+    },
+    "EKF": {
+      "rmse_with_gnss_m": 0.752,
+      "rmse_during_outage_m": 11.076,
+      "error_at_outage_end_m": 23.508,
+      "max_3d_error_during_outage_m": 23.604,
+      "recovery_s_after_gnss_returns": 0.4,
+      "runtime_s": 19.2,
+      "us_per_epoch": 1263.1,
+      "median_position_nees_outage": 0.903
+    },
+    "PF": {
+      "rmse_with_gnss_m": 59.985,
+      "rmse_with_gnss_m_min": 19.041,
+      "rmse_with_gnss_m_max": 92.106,
+      "rmse_during_outage_m": 438.514,
+      "rmse_during_outage_m_min": 117.651,
+      "rmse_during_outage_m_max": 678.732,
+      "error_at_outage_end_m": 809.967,
+      "error_at_outage_end_m_min": 202.392,
+      "error_at_outage_end_m_max": 1205.915,
+      "max_3d_error_during_outage_m": 848.78,
+      "max_3d_error_during_outage_m_min": 421.425,
+      "max_3d_error_during_outage_m_max": 1309.895,
+      "runtime_s": 16.5,
+      "runtime_s_min": 16.3,
+      "runtime_s_max": 16.7,
+      "us_per_epoch": 1083.9,
+      "us_per_epoch_min": 1073.6,
+      "us_per_epoch_max": 1095.7,
+      "median_position_nees_outage": 100188.43,
+      "median_position_nees_outage_min": 19111.611,
+      "median_position_nees_outage_max": 240768.458
+    },
+    "RPF": {
+      "rmse_with_gnss_m": 2.571,
+      "rmse_with_gnss_m_min": 2.518,
+      "rmse_with_gnss_m_max": 2.761,
+      "rmse_during_outage_m": 5705.247,
+      "rmse_during_outage_m_min": 2992.574,
+      "rmse_during_outage_m_max": 15102.894,
+      "error_at_outage_end_m": 12707.075,
+      "error_at_outage_end_m_min": 6848.583,
+      "error_at_outage_end_m_max": 33603.259,
+      "max_3d_error_during_outage_m": 31334.481,
+      "max_3d_error_during_outage_m_min": 15279.956,
+      "max_3d_error_during_outage_m_max": 33928.055,
+      "runtime_s": 22.0,
+      "runtime_s_min": 21.6,
+      "runtime_s_max": 22.2,
+      "us_per_epoch": 1450.0,
+      "us_per_epoch_min": 1420.9,
+      "us_per_epoch_max": 1461.5,
+      "median_position_nees_outage": 0.016,
+      "median_position_nees_outage_min": 0.01,
+      "median_position_nees_outage_max": 0.019
+    },
+    "MPF": {
+      "rmse_with_gnss_m": 3.624,
+      "rmse_with_gnss_m_min": 1.193,
+      "rmse_with_gnss_m_max": 4.226,
+      "rmse_during_outage_m": 167.866,
+      "rmse_during_outage_m_min": 45.253,
+      "rmse_during_outage_m_max": 187.655,
+      "error_at_outage_end_m": 345.073,
+      "error_at_outage_end_m_min": 98.495,
+      "error_at_outage_end_m_max": 380.71,
+      "max_3d_error_during_outage_m": 345.073,
+      "max_3d_error_during_outage_m_min": 98.595,
+      "max_3d_error_during_outage_m_max": 380.801,
+      "recovery_s_after_gnss_returns": 2.6,
+      "recovery_s_after_gnss_returns_min": 2.0,
+      "recovery_s_after_gnss_returns_max": 3.2,
+      "runtime_s": 58.8,
+      "runtime_s_min": 58.7,
+      "runtime_s_max": 60.8,
+      "us_per_epoch": 3868.0,
+      "us_per_epoch_min": 3859.1,
+      "us_per_epoch_max": 3996.2,
+      "median_position_nees_outage": 1733.683,
+      "median_position_nees_outage_min": 122.652,
+      "median_position_nees_outage_max": 2860.194
+    }
+  }
+}

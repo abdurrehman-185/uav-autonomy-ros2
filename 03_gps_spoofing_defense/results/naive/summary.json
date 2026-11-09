@@ -1,0 +1,14 @@
+{
+  "mode": "naive",
+  "outcome": "HIJACKED INTO BUILDING",
+  "attack_start_s": 25.3,
+  "alarm_s": null,
+  "detection_delay_s": null,
+  "crash_s": null,
+  "gps_fixes_fused": 985,
+  "waypoints_reached": 0,
+  "max_true_cross_track_m": 6.77,
+  "min_clearance_to_obstacles_m": 0.23,
+  "max_navigation_error_m": 26.63,
+  "max_spoof_offset_m": 25.0
+}

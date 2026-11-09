@@ -1,0 +1,172 @@
+{
+  "title": "GNSS spoofing attack: GNSS + IMU (no checks)",
+  "title_scale": 0.52,
+  "run_csv": "naive/run.csv",
+  "frames": {
+    "chase": "naive/frames/chase_cam",
+    "overhead": "naive/frames/overhead_cam"
+  },
+  "truth": [
+    "true_x",
+    "true_y"
+  ],
+  "series": [
+    {
+      "x": "gps_x",
+      "y": "gps_y",
+      "label": "GNSS received",
+      "color": [
+        60,
+        60,
+        230
+      ],
+      "width": 1,
+      "error": false
+    },
+    {
+      "x": "est_x",
+      "y": "est_y",
+      "label": "Drone belief",
+      "color": [
+        230,
+        200,
+        40
+      ],
+      "width": 2
+    }
+  ],
+  "bounds": [
+    -8,
+    72,
+    -16,
+    16
+  ],
+  "walls": [
+    [
+      -9.0,
+      7.0,
+      10,
+      10
+    ],
+    [
+      4.0,
+      7.0,
+      12,
+      12
+    ],
+    [
+      20.5,
+      7.0,
+      9,
+      9
+    ],
+    [
+      32.0,
+      7.0,
+      14,
+      11
+    ],
+    [
+      49.5,
+      7.0,
+      11,
+      10
+    ],
+    [
+      64.0,
+      7.0,
+      8,
+      9
+    ],
+    [
+      -6.0,
+      -17.0,
+      12,
+      10
+    ],
+    [
+      11.0,
+      -16.0,
+      8,
+      9
+    ],
+    [
+      21.5,
+      -19.0,
+      13,
+      12
+    ],
+    [
+      38.5,
+      -16.0,
+      9,
+      9
+    ],
+    [
+      51.0,
+      -18.0,
+      12,
+      11
+    ]
+  ],
+  "circles": [
+    [
+      3,
+      -4.6,
+      0.4
+    ],
+    [
+      12,
+      4.6,
+      0.4
+    ],
+    [
+      21,
+      -4.6,
+      0.4
+    ],
+    [
+      30,
+      4.6,
+      0.4
+    ],
+    [
+      39,
+      -4.6,
+      0.4
+    ],
+    [
+      48,
+      4.6,
+      0.4
+    ],
+    [
+      57,
+      -4.6,
+      0.4
+    ]
+  ],
+  "waypoints": [
+    [
+      60,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "error_ylim": 12,
+  "events": [
+    {
+      "t": 25.3,
+      "until": 1000000000.0,
+      "text": "GNSS SPOOFING ATTACK"
+    }
+  ],
+  "speed": 2,
+  "out": "../media/spoofing_naive.mp4",
+  "gif": "../media/spoofing_naive.gif",
+  "gif_start": 10,
+  "gif_seconds": 16
+}

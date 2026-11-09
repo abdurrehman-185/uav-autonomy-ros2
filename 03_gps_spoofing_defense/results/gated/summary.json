@@ -1,0 +1,18 @@
+{
+  "mode": "gated",
+  "outcome": "CRASHED",
+  "attack_start_s": 25.2,
+  "alarm_s": null,
+  "detection_delay_s": null,
+  "crash_s": 57.6,
+  "gps_fixes_fused": 290,
+  "map_alignment_shift_m": [
+    0.0,
+    0.0
+  ],
+  "waypoints_reached": 0,
+  "max_true_cross_track_m": 6.76,
+  "min_clearance_to_obstacles_m": 0.24,
+  "max_navigation_error_m": 11.47,
+  "max_spoof_offset_m": 12.74
+}

@@ -1,0 +1,17 @@
+{
+  "status": "LANDED waypoints=10/10 scans_used=1022 scans_rejected=0",
+  "mission_seconds": 101.3,
+  "distance_flown_m": 66.3,
+  "lidar_ekf_rmse_m": 0.035,
+  "lidar_ekf_max_error_m": 0.085,
+  "lidar_ekf_final_error_m": 0.027,
+  "lidar_ekf_yaw_rmse_deg": 0.18,
+  "imu_only_rmse_m": 97.81,
+  "imu_only_final_error_m": 215.56,
+  "true_end_position_m": [
+    0.01,
+    -0.02,
+    0.05
+  ],
+  "peak_true_altitude_m": 1.6
+}

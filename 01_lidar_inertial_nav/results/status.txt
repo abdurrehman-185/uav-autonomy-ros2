@@ -1,0 +1,1 @@
+LANDED waypoints=10/10 scans_used=1022 scans_rejected=0
